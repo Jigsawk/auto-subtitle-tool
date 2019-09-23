@@ -1,0 +1,20 @@
+server:
+  port: 
+
+
+
+spring:
+  application: subtitle-tool
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+  profiles:
+    active: dev
+
+
+#log
+logging:
+  config: classpath:logback-spring.xml
+  path: /qae/log
