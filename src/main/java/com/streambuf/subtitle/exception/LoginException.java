@@ -1,7 +1,7 @@
 package com.streambuf.subtitle.exception;
 
 
-import com.streambuf.subtitle.common.ErrorCode;
+import com.streambuf.subtitle.common.enums.ErrorCode;
 import com.streambuf.subtitle.common.enums.ErrorCodeEnum;
 
 public class LoginException extends RuntimeException {

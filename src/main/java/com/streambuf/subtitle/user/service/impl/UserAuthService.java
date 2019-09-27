@@ -48,7 +48,7 @@ public class UserAuthService implements IUserAuthService {
         if (optional.isPresent()) {
             throw new ApiException(ErrorCodeEnum.SIGN_UP_ERROR);
         }
-        Optional<InvitationCode> optionalCode = invitationCodeRepo.findByCodeAndStatus(param.getInvitattion(), UNUSED);
+        Optional<InvitationCode> optionalCode = invitationCodeRepo.findByCodeAndStatus(param.getInvitation(), UNUSED);
         if (!optionalCode.isPresent()) {
             throw new ApiException(ErrorCodeEnum.INVITATION_CODE_WRONG);
         }

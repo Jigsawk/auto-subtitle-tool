@@ -10,5 +10,5 @@ public class UserSignUpVO extends Convert implements Serializable {
     private String username;
     private String email;
     private String password;
-    private String invitattion;
+    private String invitation;
 }

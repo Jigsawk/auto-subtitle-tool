@@ -1,4 +1,4 @@
-package com.streambuf.subtitle.common;
+package com.streambuf.subtitle.common.enums;
 
 import lombok.*;
 

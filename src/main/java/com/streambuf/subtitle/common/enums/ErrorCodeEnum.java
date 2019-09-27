@@ -1,6 +1,6 @@
 package com.streambuf.subtitle.common.enums;
 
-import com.streambuf.subtitle.common.ErrorCode;
+import com.streambuf.subtitle.common.enums.ErrorCode;
 
 import javax.servlet.http.HttpServletResponse;
 

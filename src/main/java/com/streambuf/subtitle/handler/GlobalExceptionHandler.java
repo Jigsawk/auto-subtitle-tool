@@ -1,7 +1,7 @@
 package com.streambuf.subtitle.handler;
 
 
-import com.streambuf.subtitle.common.ErrorCode;
+import com.streambuf.subtitle.common.enums.ErrorCode;
 import com.streambuf.subtitle.common.responses.FailedResponse;
 import com.streambuf.subtitle.exception.ApiException;
 import org.springframework.http.HttpStatus;

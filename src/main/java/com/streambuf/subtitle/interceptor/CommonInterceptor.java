@@ -1,6 +1,6 @@
 package com.streambuf.subtitle.interceptor;
 
-import com.streambuf.subtitle.common.ErrorCode;
+import com.streambuf.subtitle.common.enums.ErrorCode;
 import com.streambuf.subtitle.common.enums.ErrorCodeEnum;
 import com.streambuf.subtitle.common.utils.ApiUtils;
 import com.streambuf.subtitle.exception.ApiException;
