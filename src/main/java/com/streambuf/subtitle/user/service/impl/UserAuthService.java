@@ -66,8 +66,9 @@ public class UserAuthService implements IUserAuthService {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(new Date());
         calendar.add(Calendar.MONTH, 2);
+        int rd=(int)((Math.random()*9+1)*1000000);
         // 失效时间为2个月
-        return Jwts.builder().setSubject(ROLE)
+        return rd+Jwts.builder().setSubject(ROLE)
                 .setId(String.valueOf(userId))
                 .setIssuedAt(new Date())
                 .setExpiration(calendar.getTime())
